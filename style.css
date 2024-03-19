@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Home;
+    src: url(Anta-Regular.ttf);
+}
+
+.Home {
+    font-size: x-large;
+    font-family: Home;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+body {
+    background-color: cornsilk;
+    display: none;
+}
+
+html {
+    font-family: Home;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    cursor: url(select\ cursor.png), auto;
+}
+
+nav {
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  #nav-menu {
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav-menu a {
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-position 0.3s ease;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, transparent 50%, rgba(0, 0, 0, 1) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+  
+  #nav-menu a:hover {
+    background-position: left bottom;
+    color: black;
+    font-weight: bold;
+    cursor: url(hand\ cursor.png), auto;
+    
+  }
+  
+  
+  @keyframes gradient {
+    0% {
+      background-position: right bottom;
+    }
+    100% {
+      background-position: left bottom;
+    }
+  }
+
+  #nav-menu_draw a {
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-position 0.3s ease;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, transparent 50%, rgba(0, 0, 0, 1) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    
+  }
+
+  #nav-menu_draw a:hover {
+    background-position: left bottom;
+    color: black;
+    font-weight: bold;
+    
+  }
+
+  #nav-menu_draw {
+    margin-right: 20%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  canvas {
+    border: 1px solid black;
+}
+
+button {
+    font-family: Home;
+    border-radius: 20px;background-color: black;
+    color: cornsilk;
+    padding: 14px 16px;
+    display: block;
+}
+
+
+button:hover {
+    font-weight: bolder;
+    cursor: url(select\ cursor.png), auto;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: cornsilk;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 10px;
+    transition: ease-out 0.3s;
+    text-align: center;
+    width: 5%;
+}
+
+footer a:hover  {
+    background-color: cornsilk;
+    color: black;
+    font-weight: bold;
+    cursor: url(hand\ cursor.png), auto;
+    transition: ease-in 0.3s;
+}
+
+.fat {
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+
+
+
+#btn:hover {
+    font-weight: bold;
+    background-color: cornsilk;
+    color: black;
+    transition: ease-in 0.3s;
+    cursor: url(hand\ cursor.png), auto;
+}
+
+#btn {
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: ease-out 0.3s;
+}
+
+#btn a {
+    text-decoration: none;
+    color:cornsilk;
+    transition: ease-in 0.3s;
+}
+
+#btn a:hover {
+    color: black;
+    cursor: url(hand\ cursor.png), auto;
+}
+
+
+.download{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    body {
+        display: block;
+    }
+}
+
+.pic {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 10px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.Thanks {
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-bottom: 15%;
+}
+
+#logo {
+    border: none;
+    opacity: 0.5;
+    width: 50px;
+    background-color: black;
+    border-radius: 10px;
+    transition: ease-out 0.5s;
+}
+
+#logo:hover {
+    background-color: cornsilk;
+    border-radius: none;
+    transition: ease-in 0.5s;
+    opacity: 1;
+}
+
+p {
+    color: black;
+}

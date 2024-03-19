@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/gif" href="Biker_punch.png">
+    
+</head>
+<body>
+    <a href="index.html" ><img src="Biker_punch.png" alt="Logo" class="Logo" id="logo"></a>
+    <nav>
+        <ul id="nav-menu">
+          <li><a href="About.html">About</a></li>
+          <li><a href="draw.html">Impressions</a></li>
+          <li><a href="game.html">Download</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    <div class="Home"> 
+        <h1>Contact us:</h1>
+    </div>
+
+    <form action="Thanks.html">
+        <label for="fname">Vorname: *</label>
+        <input id="fname" type="text" pattern="[A-Z][a-z]{1,20}" required placeholder="Max"><br><br>
+
+        <label for="nname">Nachname: *</label>
+        <input id="nname" type="text" pattern="[A-Z][a-z]{1,20}" required placeholder="Mustermann"><br><br>
+
+        <label for="strasse">Strasse: *</label>
+        <input id="strasse" type="text" required placeholder="Teststrasse"> <br><br>
+
+        <label for="Hausnummer">Hausnummer: *</label>
+        <input id="Hausnummer" type="text" pattern="[1-9][0-9]?[0-9]?[a-z]?" required placeholder="10"><br><br>
+
+        <label for="Postleitzahl">Postleitzahl: *</label>
+        <input id="Postleitzahl" type="text" pattern="[1-9][0-9][0-9][0-9]" required placeholder="4460"><br><br>
+
+        <label for="ort">Ortschaft: *</label>
+        <input id="ort" type="text" pattern="[A-Z][a-z]{1-38}" required placeholder="Gelterkinden"><br><br>
+
+        <label for="email">E-Mail:</label>
+        <input id="email" type="email" pattern="[A-Za-z]{1,40}[.,/-]?[A-Za-z]{1,40}?[.,/-]?[A-Za-z]{1,40}?[@][a-z]{1,40}[.][a-z]{1,4}" placeholder="MaxMustermann@mail.com"><br><br>
+
+        <label for="Telefon">Telefonnummer: *</label>
+        <input id="Telefon" type="text" pattern="[0][1-9][1-9][ ][1-9][1-9][1-9][ ][1-9][1-9][ ][1-9][1-9]" placeholder="079 333 33 33"><br><br>
+        <label for="Mitteilung">Mitteilung: </label><br>
+        <textarea name="" id="Mitteilung" cols="auto" rows="auto"></textarea><br><br>
+        
+        <input id="abschicken"type="submit">
+        <label for="abschicken"></label>
+    </form>
+    <footer id="footer">
+        <p>© Alle Rechte Vorbehalten.</p>
+        <a href="index.html">To homepage</a> <br>
+    </footer>
+    
+</body>
+</html>
